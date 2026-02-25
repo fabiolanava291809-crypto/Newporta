@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fabiola Nava | Portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Fabiola Nava, desarrolladora de aplicaciones y diseñadora UI/UX en CDMX.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #ff69b4;
+            --primary-light: #fff0f6;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .bg-primary {
+            background-color: var(--primary-color) !important;
+        }
+
+        .text-primary {
+            color: var(--primary-color) !important;
+        }
+
+        .btn-outline-primary {
+            border-color: var(--primary-color) !important;
+            color: var(--primary-color) !important;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: var(--primary-color) !important;
+            color: #fff !important;
+        }
+
+        section {
+            background-color: var(--primary-light);
+            padding: 80px 0;
+        }
+
+        .navbar .nav-link.active {
+            color: var(--primary-color) !important;
+        }
+
+        #about img {
+            width: 70%;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+      }
+        {
+    height: 250px;
+    object-fit: cover;
+}
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 px-lg-5">
+        <a href="#" class="navbar-brand">
+            <h1 class="m-0 display-5"><span class="text-primary">My</span>Portafolio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Inicio</a>
+                <a href="#about" class="nav-item nav-link">Sobre mí</a>
+                <a href="#service" class="nav-item nav-link">Servicios</a>
+                <a href="#portfolio" class="nav-item nav-link">Portafolio</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a>
+                <a href="#contact" class="nav-item nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="d-flex align-items-center" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-5 pb-lg-0 text-center">
+                    <img class="img-fluid rounded-circle shadow-sm" src="perfil-fabiola.jpg" alt="Fabiola Nava">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-dark">Hola, soy</h3>
+                    <h1 class="display-4 text-primary mb-3">Fabiola Nava</h1>
+                    <h4 class="text-dark mb-3">Desarrolladora de Apps & Diseñadora UI/UX</h4>
+                    <a href="#contact" class="btn btn-outline-dark mr-3">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="text-primary">Sobre mí</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center">
+                    <img class="img-fluid shadow" src="perfil-fabiola.-2.jpg" alt="Sobre Fabiola">
+                </div>
+                <div class="col-lg-7">
+                    <p>
+                        Soy diseñadora de aplicaciones enfocada en crear interfaces atractivas, intuitivas y funcionales. Me especializo en transformar ideas en experiencias digitales claras y agradables para el usuario, cuidando cada detalle visual y la usabilidad. Disfruto diseñar aplicaciones que no solo se vean bien, sino que también sean fáciles de usar, accesibles y eficientes, aportando valor tanto al usuario como al proyecto.
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-6 py-2"><strong>Nombre:</strong> Fabiola Nava</div>
+                        <div class="col-sm-6 py-2"><strong>Experiencia:</strong> 3 años</div>
+                        <div class="col-sm-6 py-2"><strong>Teléfono:</strong> 5539779107</div>
+                        <div class="col-sm-6 py-2"><strong>Correo:</strong> fabiola.nava.291809@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="service">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="text-primary">Servicios</h1>
+                <p>Lo que ofrezco</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-laptop-code fa-2x text-primary mb-3"></i>
+                    <h5>Desarrollo Web</h5>
+                    <p>Me especializo en el desarrollo de sitios web responsivos y modernos, enfocados en la usabilidad, el diseño visual y el correcto funcionamiento en distintos dispositivos y navegadores..</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-paint-brush fa-2x text-primary mb-3"></i>
+                    <h5>Diseño UI/UX</h5>
+                    <p>Creo interfaces atractivas e intuitivas para aplicaciones y páginas web, enfocadas en que el usuario pueda navegar fácilmente y tenga una buena experiencia cuidando la usabilidad.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-mobile-alt fa-2x text-primary mb-3"></i>
+                    <h5>Desarrollo de Apps</h5>
+                    <p>Desarrollo aplicaciones móviles que combinan buen diseño con funcionalidad, enfocadas en ofrecer una experiencia agradable y fácil de usar para el usuario.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <!-- Portfolio -->
+<section id="portfolio">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="text-primary">Portafolio</h1>
+            <p>Algunos de mis trabajos recientes</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img class="img-fluid rounded shadow-sm" 
+                     src="portfolio-app-1.jpg" 
+                     alt="Diseño de aplicación administrativa">
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <img class="img-fluid rounded shadow-sm" 
+                     src="portfolio-app-2.jpg" 
+                     alt="Diseño de tienda online responsiva">
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <img class="img-fluid rounded shadow-sm" 
+                     src="portfolio-app-3.jpg" 
+                     alt="Aplicación móvil enfocada en experiencia de usuario">
+            </div>
+        </div>
+    </div>
+</section>
+    
+   <!-- Blog -->
+<section id="blog">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="text-primary">Blog</h1>
+            <p>Últimas noticias y artículos</p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card shadow-sm border-0 w-100 h-100">
+                    <img src="blog-ux-design-2.jpg" class="blog-ux-design.jpg" alt="Diseño en aplicaciones">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">La importancia del diseño en las aplicaciones</h5>
+                        <p class="card-text flex-grow-1">
+                            El diseño de una aplicación es fundamental para que el usuario pueda utilizarla fácilmente y tenga una buena experiencia. Como diseñadora de aplicaciones, busco crear interfaces intuitivas y atractivas, donde el usuario se sienta cómodo al navegar y realizar sus tareas.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card shadow-sm border-0 w-100 h-100">
+                    <img src="blog-ux-design.jpg" class="card-img-top" alt="Diseño de aplicacion movil">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">La experiencia del usuario en las aplicaciones</h5>
+                        <p class="card-text flex-grow-1">
+                            La experiencia del usuario es uno de los aspectos más importantes en el diseño de aplicaciones. Una app bien diseñada permite que las personas encuentren lo que buscan fácilmente y puedan usarla sin dificultad. Como diseñadora de apps, mi objetivo es crear interfaces claras y organizadas
+                        </p>
+                        <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card shadow-sm border-0 w-100 h-100">
+                    <img src="blog-ux-design-3.jpg" class="card-img-top" alt="Colores para la app">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cómo los colores influyen en el diseño de una app</h5>
+                        <p class="card-text flex-grow-1">
+                          Los colores juegan un papel fundamental en el diseño de una aplicación, ya que transmiten sensaciones y ayudan a guiar al usuario dentro de la interfaz. Un buen uso de los colores permite resaltar botones, secciones importantes y mejorar la legibilidad del contenido.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container text-center">
+            <h1 class="text-primary mb-4">Contacto</h1>
+            <p>Correo: fabiola.nava.291809@gmail.com</p>
+            <p>Teléfono: 5539779107</p>
+            <p>Ubicación: CDMX</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center py-4">
+        <p>&copy; 2026 Fabiola Nava. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $('body').scrollspy({ target: '.navbar' })
+    </script>
+
+</body>
+</html>
